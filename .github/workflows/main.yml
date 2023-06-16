@@ -4,5 +4,7 @@ jobs:
     build:
           runs-on: ubuntu-latest
           steps:
-                - name: Run say hello command
-                  run: make say-hello                       
+           - name: Checkout code
+             uses: actions/checkout@v3
+           - name: Run say hello command
+             run: make say-hello                       
