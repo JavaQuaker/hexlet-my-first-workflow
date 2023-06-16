@@ -1,3 +1,2 @@
 make say-hello:
-                Hello World!
-                
+Hello World!           
